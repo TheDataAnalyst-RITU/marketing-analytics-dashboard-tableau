@@ -6,7 +6,7 @@ It's about how marketing leaders understand cross-channel paid media performance
 
 ## 📊 Tableau Dashboard
 
-[View Interactive Tableau Dashboard](https://public.tableau.com/app/profile/ritu.chaudhary5589/viz/MarketingInsights-ExecutiveSummary/ExecutiveSummary))
+[View Interactive Tableau Dashboard](https://public.tableau.com/app/profile/ritu.chaudhary5589/viz/MarketingInsights-ExecutiveSummary/ExecutiveSummary)
 
 
 ## 📷 Dashboard Snapshots
