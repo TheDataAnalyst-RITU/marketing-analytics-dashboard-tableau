@@ -9,4 +9,4 @@ It's about how marketing leaders understand cross-channel paid media performance
 ## 📷 Dashboard Snapshots
 
 ### 📊 Marketing Analytics Dashboard -
-![Dashboard Preview]()
+![Dashboard Preview](https://github.com/TheDataAnalyst-RITU/Tableau-Project---Marketing-Analytics-Dashboard/blob/main/Snapshot%20of%20Marketing%20Insights%20Dashboard.png)
