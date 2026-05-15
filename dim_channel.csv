@@ -1,0 +1,5 @@
+channel,channel_type,is_paid
+Programmatic,Display,True
+Paid Search,Search,True
+Paid Social,Social,True
+Organic,Owned,False

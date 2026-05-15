@@ -1,0 +1,9 @@
+data_source,channel,vendor
+StackAdapt,Programmatic,StackAdapt
+Amazon Ad Server (Sizmek),Programmatic,Amazon
+Google Display & Video 360,Programmatic,Google
+Google Search Ads 360,Paid Search,Google
+Bing Ads (Microsoft Advertising),Paid Search,Bing
+Facebook,Paid Social,Facebook
+LinkedIn Ads,Paid Social,LinkedIn
+Organic Search,Organic,Organic
