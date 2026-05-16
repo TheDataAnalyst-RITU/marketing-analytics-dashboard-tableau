@@ -132,23 +132,6 @@ This project taught me — or reinforced — several lessons that apply directly
 
 ---
 
-## 📁 Repository Structure
-
-```plaintext
-├── 📊 data/
-│   ├── fact_marketing.csv          # Main fact table (~11,680 rows)
-│   ├── dim_channel.csv             # Channel dimension
-│   ├── dim_data_source.csv         # Data source dimension
-│   └── dim_campaign.csv            # Campaign dimension
-├── 🐍 scripts/
-│   └── generate_tableau_data.py    # Data generator (seed=42, fully reproducible)
-├── 📈 dashboard/
-│   └── MarketingInsights.twbx      # Packaged Tableau workbook
-├── 📄 Submission_Notes.pdf         # Project documentation
-└── 📄 README.md                    # You are here
-```
----
-
 ## 📷 Dashboard Snapshots
 
 ### 📊 Marketing Analytics Dashboard -
