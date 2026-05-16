@@ -14,7 +14,8 @@
 
 ## 🎯 Business Problem
 
-Marketing teams running paid media across **Paid Search, Paid Social, Programmatic, and Organic** struggle with a recurring question: > *"a number moved — what's going on, and what do we do?"*
+Marketing teams running paid media across **Paid Search, Paid Social, Programmatic, and Organic** struggle with a recurring question: 
+> *"a number moved — what's going on, and what do we do?"*
 Most dashboards show aggregate metrics, but real budget decisions get made at the **data source level** (Facebook vs. LinkedIn, DV360 vs. SA360) and the **campaign level**. Without a drill-capable view, analysts spend hours stitching together reports from each platform.
 **This dashboard solves that** with a single view that answers three questions in under 30 seconds:
 
