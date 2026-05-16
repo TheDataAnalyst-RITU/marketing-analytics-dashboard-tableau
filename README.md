@@ -7,7 +7,6 @@
 ## 🔗 Quick Links
 
 - 🎨 **Live Dashboard:** [Marketing Insights — Executive Summary](https://public.tableau.com/app/profile/ritu.chaudhary5589/viz/MarketingInsights-ExecutiveSummary/ExecutiveSummary)
-- 🎥 **Video Walkthrough (~1.5 min):** [YouTube](https://youtu.be/uVjC4VnLRE4)
 - 💼 **LinkedIn:** [linkedin.com/in/ritu-c-27b333202](https://www.linkedin.com/in/ritu-c-27b333202/)
 
 ---
