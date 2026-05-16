@@ -47,6 +47,11 @@ This is an **end-to-end analytics project** covering the full lifecycle:
 A **fully synthetic** 2023 dataset generated in **Python** (numpy, pandas) with a fixed 'seed=42' for reproducibility. **~11,680 rows** at date × ad_set grain, covering **4 channels** (Paid Search, Paid Social, Programmatic, Organic), **8 data sources** (StackAdapt, Amazon Ad Server, Google DV360, Google SA360, Facebook, LinkedIn, Bing Ads, etc.), **16 campaigns**, and **32 ad sets**.
 **Schema choice:** The fact table stores only **raw counts** (impressions, clicks, spend, conversions, video views). **Rate metrics** — CTR, CPC, CPM, Conversion Rate — are computed in Tableau as SUM(numerator)/SUM(denominator) so they aggregate correctly at any rollup level.
 
+## 📦 Data Source
+
+A **fully synthetic** 2023 dataset generated in **Python** (`numpy`, `pandas`) with a fixed `seed=42` for reproducibility. **~11,680 rows** at `date × ad_set` grain, covering **4 channels** (Paid Search, Paid Social, Programmatic, Organic), **8 data sources** (StackAdapt, Amazon Ad Server, Google DV360, Google SA360, Facebook, LinkedIn, Bing Ads, etc.), **16 campaigns**, and **32 ad sets**.
+
+**Schema choice:** The fact table stores only **raw counts** (`impressions`, `clicks`, `spend`, `conversions`, `video_views`). **Rate metrics** — `CTR`, `CPC`, `CPM`, `Conversion Rate` — are computed in Tableau as `SUM(numerator)/SUM(denominator)` so they aggregate correctly at any rollup level.
 ---
 
 ## 🛠️ Tech Stack
