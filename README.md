@@ -44,18 +44,8 @@ This is an **end-to-end analytics project** covering the full lifecycle:
 
 ## 📦 Data Source
 
-The dataset is **fully synthetic**, generated in Python with a fixed seed for reproducibility. It mirrors how real cross-channel paid media data looks at a media agency or in-house marketing team.
-
-**Scale:**
-- 🔢 **~11,680 rows** at the lowest practical grain (one row per `date × ad_set`)
-- 📅 **Full-year 2023** daily data
-- 📡 **4 channels** — Paid Search, Paid Social, Programmatic, Organic
-- 🌐 **8 data sources** — StackAdapt, Amazon Ad Server, Google DV360, Google Search Ads 360, Facebook, LinkedIn, Bing Ads, and more
-- 🎯 **16 campaigns** across the channel mix
-- 📍 **32 ad sets** (campaign-level child rows)
-
-**Schema design choice:**
-The fact table stores **only raw counts** — impressions, clicks, spend, conversions, video views. Every **rate metric** (CTR, CPC, CPM, Conversion Rate) is computed inside Tableau using `SUM(numerator) / SUM(denominator)`. This is the **correct way** to model rate metrics for any BI tool, because storing pre-computed rates and averaging them at a rollup level produces mathematically wrong numbers at the channel or account level. This is a subtle but important design choice that comes up in real BI work.
+A **fully synthetic** 2023 dataset generated in **Python** (numpy, pandas) with a fixed 'seed=42' for reproducibility. **~11,680 rows** at date × ad_set grain, covering **4 channels** (Paid Search, Paid Social, Programmatic, Organic), **8 data sources** (StackAdapt, Amazon Ad Server, Google DV360, Google SA360, Facebook, LinkedIn, Bing Ads, etc.), **16 campaigns**, and **32 ad sets**.
+**Schema choice:** The fact table stores only **raw counts** (impressions, clicks, spend, conversions, video views). **Rate metrics** — CTR, CPC, CPM, Conversion Rate — are computed in Tableau as SUM(numerator)/SUM(denominator) so they aggregate correctly at any rollup level.
 
 ---
 
