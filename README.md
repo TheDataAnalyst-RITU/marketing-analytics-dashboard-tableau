@@ -91,6 +91,26 @@ Spend formatted in **Billions** ("$1.11B") to fit inside KPI cards. Rate metrics
 19 worksheets composed into one executive dashboard via tiled layout (containers proved finicky for the KPI grid). Each KPI cell pairs a big-number worksheet with its corresponding sparkline below.
 
 ---
+1. ⚙️ Calculated Fields (~30 total)
+
+Period-over-period delta fields — IF [Date] is in Q4 2023 THEN [Metric] paired with a Q3 version, then SUM(Current) - SUM(Prior). Built for all 8 KPI metrics.
+Rate metric calculations — CTR, CPC, CPM, Conversion Rate computed as ratios of summed numerators/denominators (not averages of pre-computed rates).
+Conditional formatting calc fields — Separate {Metric} Delta Positive and {Metric} Delta Negative fields returning NULL when the sign doesn't match — enables green/red text formatting on the same row.
+
+2. 🔼🔽 Conditional Arrow Indicators
+Each KPI card shows a ▲ green or ▼ red arrow based on delta sign — built using IF [Delta] > 0 THEN "▲" ELSE "▼" END with color tied to the delta value.
+3. 📉 Sparklines Inside KPI Cells
+Daily-rate calculated fields (CTR Daily, CPM Daily, etc.) feed sparkline worksheets sitting beneath each KPI's big number. Axes, gridlines, and titles hidden for a minimal trend indicator.
+4. 🗂️ Performance Tables with Measure Names / Measure Values
+The three drill tables use Measure Names on Columns + Measure Values on Marks to display Impressions, Impressions Delta %, CTR, and CTR Delta % in one compact table per dimension.
+5. 🎯 Top-N Filtering with Worksheet-Scoped Filters
+Campaign table filtered to Top 10 by Impressions Sum, scoped to only this worksheet — prevents the Top-N from excluding low-volume channels (like Organic) on other sheets.
+6. 🔗 Cross-Filtering Across Worksheets
+All four filters (Channel, Data Source, Campaign, Date Range) apply to all worksheets using this data source — single click cascades through the dashboard.
+7. 🎨 Custom Number Formatting
+Spend formatted in Billions ($1.11B) to fit inside KPI cards. Rate metrics formatted as percentages with 2 decimals via Default Properties → Number Format.
+8. 🏗️ Dashboard Composition (Tiled Layout)
+19 worksheets composed into one dashboard via tiled layout. Each KPI cell pairs a big-number worksheet with its sparkline below.
 
 ## 💡 Insights Surfaced
 
