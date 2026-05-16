@@ -134,7 +134,7 @@ This project taught me — or reinforced — several lessons that apply directly
 
 ## 📁 Repository Structure
 
-.
+```plaintext
 ├── 📊 data/
 │   ├── fact_marketing.csv          # Main fact table (~11,680 rows)
 │   ├── dim_channel.csv             # Channel dimension
@@ -146,10 +146,8 @@ This project taught me — or reinforced — several lessons that apply directly
 │   └── MarketingInsights.twbx      # Packaged Tableau workbook
 ├── 📄 Submission_Notes.pdf         # Project documentation
 └── 📄 README.md                    # You are here
-
-## 📊 Tableau Dashboard
-
-[View Interactive Tableau Dashboard](https://public.tableau.com/app/profile/ritu.chaudhary5589/viz/MarketingInsights-ExecutiveSummary/ExecutiveSummary)
+```
+---
 
 ## 📷 Dashboard Snapshots
 
