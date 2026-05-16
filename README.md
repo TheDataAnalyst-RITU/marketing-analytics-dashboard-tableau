@@ -14,16 +14,13 @@
 
 ## 🎯 Business Problem
 
-Marketing teams running paid media across multiple channels — **Paid Search, Paid Social, Programmatic, Organic** — often struggle to answer a deceptively simple question:
+Marketing teams running paid media across **Paid Search, Paid Social, Programmatic, and Organic** struggle with a recurring question: > *"a number moved — what's going on, and what do we do?"*
+Most dashboards show aggregate metrics, but real budget decisions get made at the **data source level** (Facebook vs. LinkedIn, DV360 vs. SA360) and the **campaign level**. Without a drill-capable view, analysts spend hours stitching together reports from each platform.
+**This dashboard solves that** with a single view that answers three questions in under 30 seconds:
 
-> *"A number moved. What's actually going on, and what do we do about it?"*
-
-Most dashboards show metrics at the aggregate level, but real budget decisions get made at the **data source / platform level** (Facebook vs. LinkedIn, DV360 vs. SA360) and at the **campaign level**. Without a unified view that supports drill-down, marketing analysts spend hours stitching together reports from individual platforms.
-
-**This dashboard solves that** by giving marketing analysts a single, drill-capable view that answers three questions in under 30 seconds:
-1. **Are we on track?** (KPI strip with deltas + sparklines)
-2. **Is this a trend or a blip?** (Time-series chart with channel breakdown)
-3. **Which channel → which platform → which campaign do I act on?** (Multi-level performance tables)
+1. **Are we on track?** — KPI strip with deltas + sparklines
+2. **Is it a trend or a blip?** — Time-series chart by channel
+3. **Which channel → platform → campaign do I act on?** — Multi-level performance tables
 
 ---
 
