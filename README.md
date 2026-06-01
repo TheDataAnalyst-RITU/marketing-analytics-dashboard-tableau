@@ -1,6 +1,6 @@
 # 📊 Cross-Channel Marketing Analytics Dashboard
 
-> An end-to-end marketing analytics project built in **Tableau Public** — from synthetic data generation in Python to a fully interactive executive dashboard with multi-level drill-downs, period-over-period deltas, and analyst-grade.
+> An end-to-end marketing analytics project built in **Tableau Public** — from synthetic data generation in Python to a fully interactive executive dashboard with multi-level drill-downs, period-over-period deltas, and analyst-grade insights.
 
 ---
 
